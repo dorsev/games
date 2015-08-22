@@ -1,0 +1,21 @@
+<html>
+<head>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script type="text/javascript">
+	$(document).ready(function () {
+	  $('body').append('<canvas id="jsSnake">'); //create the canvas element
+	  var $canvas = $('#jsSnake'); //select it with jQuery
+	  $canvas.attr('width', 100); //set its width
+	  $canvas.attr('height', 100); //and height
+	  var canvas = $canvas[0]; //get the actual dom element
+	  var ctx = canvas.getContext('2d'); //get the context
+	  ctx.fillStyle = '#fe57a1'; //hot pink!
+	  ctx.fillRect(10, 10, 30, 50); //fill a rectangle (x, y, width, height)
+	});
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>

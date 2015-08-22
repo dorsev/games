@@ -1,0 +1,11 @@
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\bin\Debug\Tettris.exe
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\bin\Debug\Tettris.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\MainWindow.baml
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\App.g.cs
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\Tettris_MarkupCompile.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\Tettris.g.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\Tettris.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\Tettris.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\Tettris.exe
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\Tettris\obj\x86\Debug\Tettris.pdb

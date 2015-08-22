@@ -1,0 +1,105 @@
+﻿<Window x:Class="SnakesWpfed.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Model="clr-namespace:SnakesWpfed.Model"
+        xmlns:common="clr-namespace:SnakesWpfed.Common"
+        xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+        xmlns:convertors="clr-namespace:GameCommon.Converters;assembly=GameCommon"
+        xmlns:behaviors="clr-namespace:SnakesWpfed.Behaviors"
+        xmlns:presenters="clr-namespace:SnakesWpfed.Presenters"
+        xmlns:pre="clr-namespace:SnakesWpfed.Presenters.SnakesPresenters"
+        Title="MainWindow" x:Name="Window" WindowState="Maximized" >
+    <Window.Resources>
+        <convertors:BoolToVisibility x:Key="boolVisiblityConvertor"/>
+        <convertors:PositionToCanvasPosition x:Key="PositionToCanvasPosition"/>
+        <convertors:InvertedBoolToVisibility x:Key="InvertedBoolVis"/>
+        <convertors:LoadedBehaviorPropertyConvertor x:Key="mediaElement"/>
+        <!--Apple -->
+        <DataTemplate DataType="{x:Type pre:ApplePresenter}">
+            <TextBlock Text="Apple" 
+                       Background="Pink"
+                       />
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type pre:GrassPresenter}">
+            <TextBlock Text="Grass" FontStyle="Italic" Background="Green"/>
+        </DataTemplate>
+
+        <!--Snake Item Presenter-->
+        <DataTemplate DataType="{x:Type pre:SnakePiecePresenter}">
+            <TextBlock x:Name="snakeItemBlock" />
+            <DataTemplate.Triggers>
+                <DataTrigger Binding="{Binding IsHead}" Value="True">
+                    <!--Head-->
+                    <Setter  Property="TextBlock.Text" TargetName="snakeItemBlock" Value="Head"/>
+                    <Setter Property="TextBlock.Background" TargetName="snakeItemBlock" Value="Blue"/>
+                </DataTrigger>
+                <DataTrigger Binding="{Binding IsHead}" Value="False">
+                    <!--Snake Body-->
+                    <Setter  Property="TextBlock.Text" TargetName="snakeItemBlock" Value="SnakePiece"/>
+                </DataTrigger>
+            </DataTemplate.Triggers>
+
+        </DataTemplate>
+
+        <!--Snakes Presenter-->
+        <DataTemplate DataType="{x:Type presenters:SnakesPresenter}">
+            <StackPanel>
+                <Border Background="Black" Visibility="{Binding IsGamePaused,Converter={StaticResource ResourceKey=InvertedBoolVis}}" Height="500">
+                    <ContentControl HorizontalContentAlignment="Center" >
+                        <StackPanel>
+                            <Canvas  Margin="120,94,145,49">
+                                <TextBlock Background="White" Text="Game is Paused" />
+                                <Rectangle Height="99" Width="50" Fill="White" Canvas.Left="59" Canvas.Top="10" />
+                                <Rectangle Height="99" Width="50" Fill="White" Canvas.Left="147" Canvas.Top="10" />
+                            </Canvas>
+                        </StackPanel>
+                    </ContentControl>
+                </Border>
+                <ItemsControl  ItemsSource="{Binding Path=ArrayOfItems}">
+                    <ItemsControl.ItemsPanel>
+                        <ItemsPanelTemplate>
+                            <Canvas Focusable="True" >
+                                <!--this is here to catch up,left,right,down keys and make snake head react acoording to them-->
+                                <Canvas.InputBindings>
+                                    <KeyBinding Key="Up" Command="{Binding MoveSnakeUp}"/>
+                                    <KeyBinding Key="Right" Command="{Binding MoveSnakeRight}"/>
+                                    <KeyBinding Key="Left" Command="{Binding MoveSnakeLeft}"/>
+                                    <KeyBinding Key="Space" Command="{Binding PauseResumeGame}"/>
+                                    <KeyBinding Gesture="CTRL+S" Command="{Binding SlowDownStuff}"/>
+                                    <KeyBinding Key="Down" Command="{Binding MoveSnakeDown}"/>
+                                </Canvas.InputBindings>
+                                <!--this is here in order to focus the canvas. without this the key bindings wont work-->
+                                <i:Interaction.Behaviors>
+                                    <behaviors:FocusElement/>
+                                </i:Interaction.Behaviors>
+                            </Canvas>
+                        </ItemsPanelTemplate>
+                    </ItemsControl.ItemsPanel>
+                    <ItemsControl.ItemContainerStyle>
+                        <Style TargetType="ContentPresenter">
+                            <Setter Property="Canvas.Left" Value="{Binding Path=CurrentGamePiece.XPosition,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged,Converter={StaticResource ResourceKey=PositionToCanvasPosition}}" />
+                            <Setter Property="Canvas.Top" Value="{Binding Path=CurrentGamePiece.YPosition,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged,Converter={StaticResource ResourceKey=PositionToCanvasPosition}}" />
+                        </Style>
+                    </ItemsControl.ItemContainerStyle>
+                </ItemsControl>
+            </StackPanel>
+        </DataTemplate>
+        <!--USER CUSTOMIZATION PRESENTER-->
+        <DataTemplate DataType="{x:Type presenters:UserCustomizationPresenter}">
+            <WrapPanel>
+                <CheckBox Content="AI mode or not" IsChecked="{Binding IsArtifatlIntellgaineOn}"/>
+                <Button Content="browse for head"  Command="{Binding BrowserPathForHead}"/>
+                <Button Content="browse for apple"  Command="{Binding BrowsePathForApple}"/>
+                <Button Content="browse for Grass"  Command="{Binding BrowsePathForGrass}"/>
+            </WrapPanel>
+        </DataTemplate>
+        <presenters:SnakesPresenter x:Key="SnakesPresenter"/>
+        <presenters:UserCustomizationPresenter x:Key="UserCustomizationPresenter"/>
+    </Window.Resources>
+
+    <StackPanel >
+        <ContentControl Content="{StaticResource ResourceKey=SnakesPresenter}"/>
+
+    </StackPanel>
+</Window>

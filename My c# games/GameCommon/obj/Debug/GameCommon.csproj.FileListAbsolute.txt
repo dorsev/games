@@ -1,0 +1,11 @@
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\GameCommon\bin\Debug\GameCommon.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\GameCommon\bin\Debug\GameCommon.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\GameCommon\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\GameCommon\obj\Debug\GameCommon.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\GameCommon\obj\Debug\GameCommon.pdb
+C:\Users\dorsev\Desktop\New folder\GameCommon\bin\Debug\GameCommon.dll
+C:\Users\dorsev\Desktop\New folder\GameCommon\bin\Debug\GameCommon.pdb
+C:\Users\dorsev\Desktop\New folder\GameCommon\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\dorsev\Desktop\New folder\GameCommon\obj\Debug\GameCommon.csprojResolveAssemblyReference.cache
+C:\Users\dorsev\Desktop\New folder\GameCommon\obj\Debug\GameCommon.dll
+C:\Users\dorsev\Desktop\New folder\GameCommon\obj\Debug\GameCommon.pdb

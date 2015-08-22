@@ -1,0 +1,54 @@
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\WpfApplication19.exe
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\WpfApplication19.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\GameCommon.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\GameCommon.pdb
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\TiCkTacToe.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\MainWindow.g.cs
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\App.g.cs
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\WpfApplication19_MarkupCompile.cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\WpfApplication19_MarkupCompile.lref
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\MainWindow.baml
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\WpfApplication19.g.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\WpfApplication19.Properties.Resources.resources
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\TiCkTacToe.csproj.GenerateResource.Cache
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\WpfApplication19.exe
+C:\Users\User\Documents\Visual Studio 2010\Projects\WpfApplication19\WpfApplication19\obj\x86\Debug\WpfApplication19.pdb
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\WpfApplication19.exe
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\WpfApplication19.pdb
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\WpfApplication19.exe
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\WpfApplication19.pdb
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\GameCommon.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\GameCommon.pdb
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\TiCkTacToe.csprojResolveAssemblyReference.cache
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\MainWindow.g.cs
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\App.g.cs
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\WpfApplication19_MarkupCompile.cache
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\WpfApplication19_MarkupCompile.lref
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\MainWindow.baml
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\WpfApplication19.g.resources
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\WpfApplication19.Properties.Resources.resources
+C:\Users\dorsev\Desktop\New folder\WpfApplication19\obj\x86\Debug\TiCkTacToe.csproj.GenerateResource.Cache
